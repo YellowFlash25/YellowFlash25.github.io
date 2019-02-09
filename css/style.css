@@ -1,0 +1,458 @@
+/*     BOJE
+
+Black Original: #231f20
+Black1: #303036
+Black2: #12130F
+White: #FBFBFE
+Grey: #22333B
+Blue: #279af1
+*/
+
+
+/* ======================================================
+                        GENERALNI CSS
+=======================================================*/
+
+html,
+body,
+#Home,
+#Home-cover {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Humanst521 BT", sans-serif;
+}
+
+
+h1,
+h2 {
+    text-transform: uppercase;
+    color: #41464b;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.Prelaz {
+    width: 100%;
+    height: 40px;
+}
+
+
+
+
+
+/* ======================================================
+                        BACKGROUNDS
+=======================================================*/
+
+.bg-pozadina {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 100% auto;
+    position: relative;
+}
+
+
+
+
+
+
+
+/* ======================================================
+                        ANIMACIJE
+=======================================================*/
+
+.Home-heading {
+    animation-delay: 0.5s;
+    animation-duration: 2s;
+}
+
+nav a {
+    position: relative;
+    display: inline-block;
+    margin: 1px 0px 1px 45px;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+    font-size: 2em;
+    float: left;
+}
+
+nav a:hover,
+nav a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* Effect 4: bottom border enlarge */
+
+.cl-effect-4 a {
+    padding: 0 0 0px;
+}
+
+.cl-effect-4 a::after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: black;
+    content: '';
+    opacity: 0;
+    -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+    transition: height 0.3s, opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+
+.cl-effect-4 a:hover::after,
+.cl-effect-4 a:focus::after {
+    height: 5px;
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+
+
+
+
+
+
+
+
+
+/* ======================================================
+                        CONTENT
+=======================================================*/
+
+.content-box {
+    padding: 60px 0px 60px 0px;
+}
+
+
+.content-title-white h3 {
+    color: white;
+}
+
+.content-title h3 {
+    font-size: 80px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 0 8px 0;
+}
+
+
+
+
+
+
+
+/* ======================================================
+                        HOME
+=======================================================*/
+
+#Home-cover {
+    height: 100%;
+    background-image: url("../img/BW/BP_HomeBlack.jpeg");
+}
+
+.Home-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.Home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.Home-heading img {
+    margin: 0px 0 40px 0;
+    max-width: 50%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================================
+                        OUR WORK
+=======================================================*/
+
+#Our_Work .Prelaz {
+    height: 60px;
+}
+
+.tekst h1 {
+    margin: 45px 20px 0px 20px;
+    font-size: 7.8vw;
+    padding: 0px;
+    height: 100%;
+    color: black;
+}
+
+.tekst h2 {
+    margin: 0px 20px 45px 22px;
+    font-size: 6.2vw;
+    height: 100%;
+    color: black;
+}
+
+
+.tekst2 h1 {
+    margin: 0px auto 0px auto;
+    font-size: 8vw;
+    padding: 20px 0px 0px 20px;
+    color: #FBFBFE;
+    text-shadow: none;
+}
+
+.tekst2 h2 {
+    margin: 0px auto 0px 0px;
+    font-size: 7vw;
+    padding: 0px 0px 0px 20px;
+    line-height: 75%;
+    color: #FBFBFE;
+    text-shadow: none;
+}
+
+.tekst2 h3 {
+    margin: 20px auto 0px 0px;
+    font-size: 3vw;
+    padding: 0px 0px 0px 25px;
+    height: 100%;
+    width: 50%;
+    line-height: 170%;
+    color: #FBFBFE;
+}
+
+.picture1 {
+    width: 100%;
+    height: 325px;
+}
+
+.cover {
+    object-fit: cover;
+    width: 100%;
+    height: 325px;
+}
+
+.picture3 {
+    width: 100%;
+    height: 575px;
+    background-image: url(../img/BW/BP9Neutral1.jpg);
+}
+
+.picture4 {
+    width: 100%;
+    height: 750px;
+    background-image: url(../img/BW/BP11White1.jpg);
+}
+
+.align {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.picture4 img {
+    float: right;
+    width: 27%;
+    margin-right: 30px;
+}
+
+.bg_white {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+
+
+
+/* ======================================================
+                             VIDEO
+=======================================================*/
+
+
+
+.kontrola {
+   position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.kontrola iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+/* ======================================================
+                          SOCIAL MEDIA
+=======================================================*/
+
+#stats-cover {
+    background-image: url(../img/Original/SM_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#SM .content-box {
+    background-color: rgba(0, 0, 0, .85);
+    padding: 60px 0px 150px;
+}
+
+
+#SM .col-md-4,
+.col-sm-4 {
+    margin: 100px 0px 0px;
+}
+
+.stats-item {
+    margin: 30px 10px;
+}
+
+
+
+
+
+
+
+
+/* ======================================================
+                        CONTACT US
+=======================================================*/
+
+#image2 {
+    background-image: url(../img/BW/BP4White1.jpg);
+    height: 650px;
+    width: 50%;
+    float: left;
+}
+
+#image2 .Home-content-box {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+#image1 .Home-content-box {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#image2 .Home-content-box-inner {
+    display: table;
+    vertical-align: bottom;
+    width: 100%;
+    table-layout: fixed;
+}
+
+
+#image2 img {
+    margin: 50px 20px 0px 0px;
+}
+
+#image1 .Home-content-box-inner {
+    display: table;
+    vertical-align: bottom;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#image1 {
+    background-image: url(../img/BW/BP4Black2.jpg);
+    height: 650px;
+    width: 50%;
+    float: right;
+}
+
+#image1 img {
+    margin: 50px 20px 0px 0px;
+}
+
+.Contact-box {
+    margin-top: 50px;
+    height: 50vh;
+}
+
+.Contact-box h2 {
+    font-size: 70px;
+    padding-left: 25px;
+    color: #303036;
+}
+
+.Contact-box h3 {
+    font-size: 70px;
+    color: #FBFBFE;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.social-list1 {
+    padding-left: 0;
+    width: 10%;
+    float: left;
+}
+
+.social-list li {
+    list-style: none;
+    height: 50px;
+    width: 500px;
+    margin-right: 6px;
+    margin-top: 35px;
+    padding-top: 15px;
+}
+
+.social-list1 li {
+    list-style: none;
+    height: 50px;
+    width: 100px;
+    margin-right: 6px;
+    margin-top: 35px;
+}
+
+.social-icon i {
+    font-size: 55px;
+    width: 60px;
+}
+
+.icon-white {
+    color: black;
+}

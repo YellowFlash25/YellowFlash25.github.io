@@ -1,0 +1,239 @@
+/* ======================================================
+                          Media Queries 
+=======================================================*/
+
+@media (min-width: 1141px) and (max-width: 1270px) {}
+
+@media (min-width: 891px) and (max-width: 1140px) {
+
+    .picture3 {
+        height: 460px;
+    }
+    .picture4 {
+        height: 590px;
+    }
+    .Contact-box h2,
+    .Contact-box h3 {
+        font-size: 50px;
+    }
+    .social-icon i {
+        font-size: 45px;
+    }
+    .social-list a {
+        font-size: 20px;
+    }
+}
+
+
+/* EXTRA-SMALL DEVICES */
+
+@media (max-width: 890px) {
+    .picture3 {
+        height: 370px;
+    }
+    .picture4 {
+        height: 450px;
+    }
+    .Contact-box h2,
+    .Contact-box h3 {
+        font-size: 45px;
+    }
+    .social-icon i {
+        font-size: 40px;
+    }
+    .social-list a {
+        font-size: 17px;
+    }
+
+    #image1,
+    #image2 {
+        height: 570px;
+    }
+    #image2 img,
+    #image1 img {
+        margin: 0px 20px 0px 0px;
+    }
+}
+
+@media (max-width: 766px) {
+    .tekst h1,
+    .tekst h2 {
+        margin-top: 5px;
+    }
+    .tekst h2 {
+        margin-bottom: 20px;
+    }
+    .cover {
+        height: 225px;
+    }
+    #Our_Work .Prelaz {
+        height: 0px;
+    }
+    .picture1 {
+        width: 100%;
+        height: 325px;
+    }
+    .picture3 {
+        height: 320px;
+    }
+    .picture4 {
+        height: 380px;
+    }
+    .Contact-box h2,
+    .Contact-box h3 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .Contact-box h2 {
+        padding-left: 17px;
+    }
+    .social-icon i {
+        font-size: 30px;
+    }
+    .social-list a {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .social-list1 li,
+    .social-list li {
+        margin-top: 1px;
+    }
+    .social-list li {
+        width: 220px;
+        padding-top: 5px;
+    }
+    .social-list1 li {
+        width: 60px;
+    }
+
+    #image1,
+    #image2 {
+        height: 400px;
+    }
+    #image2 img,
+    #image1 img {
+        margin: 0px 20px 0px 0px;
+    }
+    .Contact-box {
+        margin-top: 30px;
+        height: 35vh;
+    }
+    .picture1 {
+        height: 270px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    #Home .Home-heading img {
+        max-width: 70%;
+    }
+    .picture3 {
+        height: 270px;
+    }
+    .picture4 {
+        height: 330px;
+    }
+    .picture1 {
+        height: 250px;
+    }
+
+
+    #SM .content-title h3 {
+        font-size: 40px;
+    }
+    .container img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #SM .col-md-4,
+    .col-sm-4 {
+        margin-top: 50px;
+    }
+
+    #stats-cover {
+        height: 650px;
+    }
+
+    .Contact-box h2,
+    .Contact-box h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .social-icon i {
+        font-size: 25px;
+    }
+    .social-list a {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .Contact-box {
+        margin-top: 20px;
+        height: 230px;
+    }
+    #image1,
+    #image2 {
+        height: 380px;
+    }
+
+    #ContactUs .Home-heading img {
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    .Contact-box h2,
+    .Contact-box h3 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .Contact-box h2 {
+        padding-left: 10px;
+    }
+    .Contact-box h3 {
+        padding-right: 10px;
+    }
+
+    .picture3 {
+        height: 230px;
+    }
+    .picture4 {
+        height: 250px;
+    }
+    .picture1 img {
+        height: 160px;
+    }
+    .picture1 {
+        height: 160px;
+    }
+    .Contact-box {
+        margin-top: 20px;
+        height: 250px;
+    }
+    .social-list1 li {
+        padding-right: 40px;
+    }
+    .social-icon i {
+        font-size: 23px;
+        width: 40px;
+    }
+    .social-list a {
+        font-size: 5px;
+        margin-left: 0px;
+    }
+    .social-list n {
+        font-size: 13px;
+    }
+    .tekst h1 {
+        margin-top: 20px;
+    }
+    #Our_Work .Prelaz {
+        height: 25px;
+    }
+    .picture4 img {
+        width: 33%;
+    }
+}
